@@ -23,3 +23,54 @@ name='single'
 <ins> - Inserted text
 <sub> - Subscript text
 <sup> - Superscript text
+
+
+<!-- ============================= -->
+
+#RRGGBB
+
+
+rgb => red,green blue
+
+
+0 to 255
+
+256 * 256 * 256 = rgb color
+
+---------------------
+
+0 to 360 
+
+0% to 100%
+
+0% to 100%
+
+<!-- ============================= -->
+
+what is css? 
+
+Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
