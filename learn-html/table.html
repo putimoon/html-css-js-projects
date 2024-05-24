@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      td,
+      th {
+        /* border: 1px solid #dddddd; */
+        text-align: left;
+        padding: 8px;
+      }
+
+      /* tr:nth-child(even) {
+        background-color: #dddddd;
+      } */
+      tr {
+        border-bottom: 1px solid black;
+      }
+      tr:hover {
+        background-color: red;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>table lesson</h1>
+    <table>
+      <caption>
+        this is table
+      </caption>
+      <colgroup>
+        <col span="2" />
+        <col span="1" style="background-color: blue" />
+      </colgroup>
+      <tr>
+        <th style="text-align: center">id/name</th>
+        <th>name</th>
+        <th>username</th>
+        <th>stauts</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>ali</td>
+        <td>ali</td>
+        <td>active</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>reza</td>
+        <td>reza1375</td>
+        <td>active</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>sara</td>
+        <td>sara@1400</td>
+        <td>active</td>
+      </tr>
+    </table>
+  </body>
+</html>
